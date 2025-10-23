@@ -52,26 +52,9 @@ Essentially, the entire goal of the Reinforcement Learning process is to find an
 
 Now we can complete our diagram. The agent's internal Policy (π) observes the State and Reward, and uses them to choose an Action.
 
-```
-          +--------------------------------------+
-          |                                      |
-          |             ENVIRONMENT              |
-          |                                      |
-          +------------------+-------------------+
-                             ^
-      Action (A_t)           |
-                             |      State (S_{t+1})
-                             +      Reward (R_{t+1})
-                             |
-          +------------------+-------------------+
-          |                  |                   |
-          |      AGENT       +-------------------+
-          |                  |
-          |   Uses Policy    |
-          |      (π)         |
-          |                  |
-          +------------------+
-```
+<img width="619" height="565" alt="image" src="https://github.com/user-attachments/assets/d1d07a2a-72ec-4b14-8ea9-af418b2768ff" />
+
+
 
 With these four components—State, Action, Reward, and Policy—we now have a complete, high-level picture of the Reinforcement Learning framework.
 
