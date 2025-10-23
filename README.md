@@ -1,3 +1,6 @@
+<img width="1024" height="538" alt="L_Main" src="https://github.com/user-attachments/assets/d190ac8f-2552-4586-8f6e-e87b38ee91e3" />
+
+
 # RL from Zero: Building Intelligent Agents Step by Step
 
 [![GitHub stars](https://img.shields.io/github/stars/dovvnloading/RL-For-Beginners?style=social)](https://github.com/dovvnloading/RL-For-Beginners/stargazers)
