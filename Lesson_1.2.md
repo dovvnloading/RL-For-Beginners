@@ -62,29 +62,9 @@ This loop is the fundamental backbone of Reinforcement Learning.
 
 We can visualize this relationship with a simple diagram.
 
-```
-          +-----------------+
-          |                 |
-          |   ENVIRONMENT   |
-          |                 |
-          +--------+--------+
-                   ^
-                   | Action (A_t)
-                   |
-          +--------+--------+
-          |                 |
-          |      AGENT      | --- Chooses Action -->
-          |                 |
-          +-----------------+
-                   ^
-                   | State (S_t)
-                   |
-          +--------+--------+
-          |                 |
-          |   ENVIRONMENT   | --- Emits State ---->
-          |                 |
-          +-----------------+
-```
+<img width="675" height="561" alt="image" src="https://github.com/user-attachments/assets/afb83cd9-e8b8-4c5f-b9bf-7247ecfe66bc" />
+
+
 *(Note: `t` represents the current time step. We will add more to this diagram in the next lesson!)*
 
 So far, we have the "who" (Agent) and the "where" (Environment), along with the "what" (State and Action). But we're missing the most important part: the "why." How does the agent learn to choose *good* actions instead of bad ones? We'll find out in the next lesson.
