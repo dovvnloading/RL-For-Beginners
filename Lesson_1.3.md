@@ -161,7 +161,44 @@ c) The agent's policy is too "greedy," focusing on immediate rewards instead of 
 </details>
 
 ---
+---
 
-Congratulations on finishing Module 1! You now have a solid grasp of the fundamental concepts and vocabulary of Reinforcement Learning. In the next module, we will start to formalize these ideas with a mathematical framework.
+# Congratulations on finishing Module 1! 
 
-[**&laquo; Previous Lesson: 1.2 The Core Components: Agents and Environments**](Lesson_1.2.md) | [**Next Module: 2. Markov Decision Processes &raquo;**](../../module-02-mdps/01-markov-property.md)
+---
+---
+
+
+### **Module 1: Conclusion and Next Steps**
+
+You have successfully completed the first and most foundational module of the course.
+
+#### What You've Learned
+
+Think of this module as learning the basic grammar and vocabulary of a new language. We've moved from a vague idea of "learning by doing" to a structured understanding built on a few key concepts.
+
+You now know that every Reinforcement Learning problem is a story about an **Agent** interacting with an **Environment**. This story unfolds as:
+
+1.  The agent observes a **State**.
+2.  It uses its **Policy (π)** to choose an **Action**.
+3.  It receives a **Reward (R)** and a new State as a consequence.
+
+The agent's entire purpose is to improve its policy to maximize its total cumulative reward over the long run.
+
+#### Preparing for Module 2: The Rules of the Game
+
+So far, we've spoken in analogies and high-level concepts. This is great for building intuition, but to build real agents, we need to give our ideas a more solid, mathematical foundation.
+
+In Module 2, "Markov Decision Processes (MDPs)," we will do exactly that. We will learn the "rules of the game" that govern the agent-environment interaction.
+
+*   We'll start with the **Markov Property**, a simple but powerful assumption that makes our problems solvable.
+*   We'll formalize our entire framework into a **Markov Decision Process (MDP)**, which is the mathematical blueprint for nearly all of modern RL.
+*   Finally, we'll meet the famous **Bellman Equations**, the elegant formulas that allow us to reason about the long-term value of being in a particular state.
+
+Don't worry, we'll continue to take it one step at a time, always connecting the math back to the intuition you've built here. You're ready for the next step.
+
+---
+
+
+
+[**&laquo; Previous Lesson: 1.2 The Core Components**](./Lesson_1.2.md) | [**Ready? Let's begin Module 2! &raquo;**](./Lesson_2.1.md)
